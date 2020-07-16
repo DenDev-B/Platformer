@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0babe428354ae34faf70e3914672a7c, type: 3}
+  m_Name: chank2
+  m_EditorClassIdentifier: 
+  map:
+  - _line: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  prefabs:
+  - {fileID: 5208239087919600919, guid: cfd132e74f7bdbc47948296ca24b67df, type: 3}
+  - {fileID: 2308389199344080711, guid: e63e63d25c08c0140b1e6bd65495c451, type: 3}
+  - {fileID: 4066251929419257870, guid: fc3575815c2fda641bb18de103c84b14, type: 3}
+  traps:
+  - go: {fileID: 6050280405514989990, guid: 11877ffe9270e02418d42bc9d51887ab, type: 3}
+    speed: 0
+    x: 4
+    y: 0
+  - go: {fileID: 6050280405514989990, guid: 11877ffe9270e02418d42bc9d51887ab, type: 3}
+    speed: 0
+    x: 7
+    y: 0
+  - go: {fileID: 6050280405514989990, guid: 11877ffe9270e02418d42bc9d51887ab, type: 3}
+    speed: 0
+    x: 10
+    y: 0
+  coinsXY:
+  - x: 2
+    y: 1
+    Random: 60
+  - x: 4
+    y: 4
+    Random: 60
+  - x: 6
+    y: 1
+    Random: 100
+  - x: 7
+    y: 4
+    Random: 40
+  - x: 8
+    y: 1
+    Random: 70
+  - x: 10
+    y: 3
+    Random: 65
+  - x: 12
+    y: 1
+    Random: 80
+  prefab_coins: {fileID: 5218839871004998572, guid: 06f657b0ec0bcf2408a533e8adc23864,
+    type: 3}

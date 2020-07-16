@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0babe428354ae34faf70e3914672a7c, type: 3}
+  m_Name: chank3
+  m_EditorClassIdentifier: 
+  map:
+  - _line: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  - _line: 000000000000000001000000000000000000000000000000000000000000000000000000010000000000000000000000
+  prefabs:
+  - {fileID: 5208239087919600919, guid: cfd132e74f7bdbc47948296ca24b67df, type: 3}
+  - {fileID: 2308389199344080711, guid: e63e63d25c08c0140b1e6bd65495c451, type: 3}
+  - {fileID: 4066251929419257870, guid: fc3575815c2fda641bb18de103c84b14, type: 3}
+  traps:
+  - go: {fileID: 5385352225876012547, guid: 477a70882a1f85f4885e68d6a79f2e6f, type: 3}
+    speed: 0
+    x: 3
+    y: 0
+  coinsXY:
+  - x: 3
+    y: 1
+    Random: 90
+  - x: 4
+    y: 1
+    Random: 90
+  - x: 5
+    y: 1
+    Random: 90
+  - x: 6
+    y: 1
+    Random: 90
+  - x: 7
+    y: 1
+    Random: 90
+  - x: 2
+    y: 1
+    Random: 90
+  - x: 9
+    y: 5
+    Random: 50
+  - x: 9
+    y: 5
+    Random: 50
+  prefab_coins: {fileID: 5218839871004998572, guid: 06f657b0ec0bcf2408a533e8adc23864,
+    type: 3}
